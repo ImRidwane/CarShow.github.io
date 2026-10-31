@@ -1,14 +1,14 @@
-const IMG_SUPRA = "supra-mk5-widebody.jpeg";
-const IMG_AVENTADOR = "aventador-svj.jpg";
-const IMG_RX7 = "rx7-fd3s-widebody.jpg";
-const IMG_GTR = "gtr-r35-nismo.jpg";
-const IMG_LAFERRARI = "LaFerrari.jpg";
-const IMG_GT3RS = "911-gt3-rs.jpg";
-const IMG_P1GTR = "p1-gtr.jpeg";
-const IMG_CHIRON = "chiron-super-sport-300-og.jpg";
-const IMG_JESKO = "jesko-absolut.jpg";
-const IMG_ZONDA = "zonda-r.jpg";
-const IMG_VIPER = "viper-acr-srt.jpg";
+const IMG_SUPRA = "Assets/supra-mk5-widebody.jpeg";
+const IMG_AVENTADOR = "Assets/aventador-svj.jpg";
+const IMG_RX7 = "Assets/rx7-fd3s-widebody.jpg";
+const IMG_GTR = "Assets/gtr-r35-nismo.jpg";
+const IMG_LAFERRARI = "Assets/LaFerrari.jpg";
+const IMG_GT3RS = "Assets/911-gt3-rs.jpg";
+const IMG_P1GTR = "Assets/p1-gtr.jpeg";
+const IMG_CHIRON = "Assets/chiron-super-sport-300-og.jpg";
+const IMG_JESKO = "Assets/jesko-absolut.jpg";
+const IMG_ZONDA = "Assets/zonda-r.jpg";
+const IMG_VIPER = "Assets/viper-acr-srt.jpg";
 
 // Assign images
 document.getElementById('imgChiron').src = IMG_CHIRON;
