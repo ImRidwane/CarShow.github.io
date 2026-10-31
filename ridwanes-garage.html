@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ridwane's Garage — Dream Builds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="logo">
+    <div class="logo-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round">
+        <path d="M3 17l2-6h14l2 6"/>
+        <path d="M3 17h18"/>
+        <circle cx="7" cy="17" r="1.5" fill="#fff" stroke="none"/>
+        <circle cx="17" cy="17" r="1.5" fill="#fff" stroke="none"/>
+        <path d="M5 11l1.5-4h11L19 11"/>
+      </svg>
+    </div>
+    <span class="logo-text">Ridwane's Garage</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#hypercars" class="active">Hypercars</a></li>
+    <li><a href="#supercars">Supercars</a></li>
+    <li><a href="#jdm">JDM Builds</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">&#9670; Dream Builds Collection</div>
+    <h1>The Ultimate<br>Dream Garage</h1>
+    <p>Your car is your prized possession. We treat it like it's our own.</p>
+    <a href="#hypercars" class="hero-cta">Explore the Collection</a>
+  </div>
+</section>
+
+<!-- HYPERCARS -->
+<section class="section" id="hypercars">
+  <div class="section-header">
+    <h2>Hypercars</h2>
+    <span class="count">5 machines</span>
+  </div>
+  <div class="car-grid">
+    <div class="car-card featured" onmouseenter="setHero(IMG_CHIRON)">
+      <img id="imgChiron" alt="Bugatti Chiron Super Sport 300+" />
+      <div class="car-card-info">
+        <span>chiron-super-sport-300-og.jpg</span>
+        <h3>Chiron Super Sport 300+</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_JESKO)">
+      <img id="imgJesko" alt="Koenigsegg Jesko Absolut" />
+      <div class="car-card-info">
+        <span>jesko-absolut.jpg</span>
+        <h3>Jesko Absolut</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_ZONDA)">
+      <img id="imgZonda" alt="Pagani Zonda R" />
+      <div class="car-card-info">
+        <span>zonda-r.jpg</span>
+        <h3>Zonda R</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_P1GTR)">
+      <img id="imgP1gtr" alt="McLaren P1 GTR" />
+      <div class="car-card-info">
+        <span>p1-gtr.jpeg</span>
+        <h3>P1 GTR</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_LAFERRARI)">
+      <img id="imgLaferrari" alt="Ferrari LaFerrari" />
+      <div class="car-card-info">
+        <span>LaFerrari.jpg</span>
+        <h3>LaFerrari</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUPERCARS -->
+<section class="section" id="supercars">
+  <div class="section-header">
+    <h2>Supercars</h2>
+    <span class="count">3 machines</span>
+  </div>
+  <div class="car-grid">
+    <div class="car-card featured" onmouseenter="setHero(IMG_AVENTADOR)">
+      <img id="imgAventador" alt="Lamborghini Aventador SVJ" />
+      <div class="car-card-info">
+        <span>aventador-svj.jpg</span>
+        <h3>Aventador SVJ</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_GT3RS)">
+      <img id="imgGt3rs" alt="Porsche 911 GT3 RS" />
+      <div class="car-card-info">
+        <span>911-gt3-rs.jpg</span>
+        <h3>911 GT3 RS</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_VIPER)">
+      <img id="imgViper" alt="Dodge Viper ACR SRT" />
+      <div class="car-card-info">
+        <span>viper-acr-srt.jpg</span>
+        <h3>Viper ACR SRT</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JDM BUILDS -->
+<section class="section" id="jdm">
+  <div class="section-header">
+    <h2>JDM Builds</h2>
+    <span class="count">3 machines</span>
+  </div>
+  <div class="car-grid">
+    <div class="car-card featured" onmouseenter="setHero(IMG_SUPRA)">
+      <img id="imgSupra" alt="Toyota Supra MK5 LB-Works Widebody" />
+      <div class="car-card-info">
+        <span>supra-mk5-widebody.jpeg</span>
+        <h3>Supra MK5 LBWK</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_RX7)">
+      <img id="imgRx7" alt="Mazda RX-7 FD3S Widebody" />
+      <div class="car-card-info">
+        <span>rx7-fd3s-widebody.jpg</span>
+        <h3>RX-7 FD3S</h3>
+      </div>
+    </div>
+    <div class="car-card" onmouseenter="setHero(IMG_GTR)">
+      <img id="imgGtr" alt="Nissan GT-R R35 Nismo" />
+      <div class="car-card-info">
+        <span>gtr-r35-nismo.jpg</span>
+        <h3>GT-R R35 Nismo</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="f-logo">Ridwane's Garage</span>
+  <span class="f-copy">&copy; 2026 &mdash; Dream builds collection</span>
+</footer>
+
+<script src="garage.js"></script>
+</body>
+</html>
